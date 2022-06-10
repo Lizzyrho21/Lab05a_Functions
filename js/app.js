@@ -9,6 +9,16 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
+// declared my array variable
+  let newsumArr = [];
+  // set the total from my paramters
+  let total = a + b;
+  // created a string variable
+  let newString = 'The sum of 4 and 7 is 11.';
+  // push my total and string inside of the array
+  newsumArr.push(total, newString);
+  // returned the array
+  return newsumArr;
 
 }
 
